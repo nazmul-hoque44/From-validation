@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import From from './component/From'
 import From1 from './component/From1'
+import Name from './component/Name'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
 
 
   <From/>  
-  <From1/>  
+  <From1/>
+  <Name/>  
     </>
   )
 }
